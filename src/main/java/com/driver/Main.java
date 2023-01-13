@@ -3,10 +3,16 @@ package com.driver;
 public class Main {
     public static void main(String[] args){
         Product p=new Product();
+        int x=0;
+        int y=0;
+        int z=0;
 
-        p.product(5,4);
-        p.product(5,4,2);
-        p.product(4.2,2.2);
+        double a=0.0;
+        double b=0.0;
+
+        p.product(x,y);
+        p.product(x,y,z);
+        p.product(a,b);
     }
 
 }
