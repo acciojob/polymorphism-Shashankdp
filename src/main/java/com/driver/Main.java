@@ -10,9 +10,9 @@ public class Main {
         double a=0.0;
         double b=0.0;
 
-        p.product(x,y);
-        p.product(x,y,z);
-        p.product(a,b);
+        int first=p.product(x,y);
+        int second=p.product(x,y,z);
+        double third=p.product(a,b);
     }
 
 }
